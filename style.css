@@ -1,0 +1,281 @@
+body {
+    width: fit-content;
+}
+/* Info Menu */
+.info-menu {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+/* Navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+.navbar-brand { font-family: 'Viga', sans-serif;
+font-size: 32px;
+color: white !important;
+text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+.nav-item{
+    margin-top: 20px;
+}
+/* Jumbotron */
+.jumbotron{
+    background-image: url(img/Jumbotron.jpg);
+    background-size: cover;
+    height: 540px;
+    margin-top: -65px;
+    text-align: center;
+}
+
+.jumbotron .display-4{
+    color: white;
+    margin-top: 150px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 200;
+    position: relative;
+}
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+}
+.jumbotron .container {
+    position: relative;
+    z-index: 1;
+}
+
+#bold {
+    font-weight: 600;
+}
+/* info panel */
+.info-panel {
+    background-color: #2E4C6D;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+    border-radius: 12px;
+    margin-top: -50px;
+    padding: 30px;
+    z-index: 3;
+}
+.info-panel img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.info-panel h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #EBE645;
+}
+.info-panel p {
+    font-size: 14px;
+    color:white;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7)
+}
+/* workingspace */
+.workingspace {
+    margin-top: 120px;
+    text-align: center;
+}
+.workingspace h3 {
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 52px;
+    font-weight: 200;
+}
+.workingspace span {
+    font-weight: 500;
+}
+.workingspace p {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 200;
+    color: #acacac;
+}
+.workingspace a {
+    margin-top: 10px;
+}
+/* paralax */
+.parallax {
+    /* The image used */
+    background-image: url("img/paralax.jpg");
+  
+    /* Set a specific height */
+    min-height: 650px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+.parallax::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #2e4c6d93;
+    position: absolute;
+    bottom: 0;
+}
+.parallax .row {
+    position: relative;
+    z-index: 1;
+}  
+.parallax h2 {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+.parallax h4 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-decoration: overline #EBE645;
+}
+/* galerry */
+.gallery h2{
+    font-family: 'Oswald', sans-serif;
+}
+.gallery h4{
+    font-family: 'Oswald', sans-serif;
+}
+.gallery h6{
+    font-family: 'Oswald', sans-serif;
+}
+.g-content {
+    height: 250px;
+}
+.g-content1 {
+    background-image: url(img/gallery1.jpg);
+    background-size: cover;
+    height: 250px;
+}
+.g-content2 {
+    background-image: url(img/gallery2.jpg);
+    background-size: cover;
+    height: 250px;
+}
+.g-content3 {
+    background-image: url(img/gallery3.jpg);
+    background-size: cover;
+    height: 250px;
+}
+.g-content4 {
+    background-image: url(img/gallery4.jpg);
+    background-size: cover;
+    height: 250px;
+}
+.c-content {
+    height: 500px;
+}
+.c-content1 {
+    background-image: url(img/contact.jpg);
+    background-size: cover;
+    height: 500px;
+}
+/* footer */
+.footer p {
+    font-size: 16px;
+    color: #acacac;
+    margin-top: 100px;
+}
+/* Utility */
+.tombol {border-radius: 30px;
+position: relative;
+z-index: 1;}
+
+.hover {
+    color: white;
+}
+.hover:hover {
+    color:#EBE645;
+}
+.bi {
+    color:#EBE645;
+}
+
+.btn-1 {
+    background-color:#2E4C6D;
+    border-radius: 12px;
+    color: white;
+}
+.btn-1:hover {
+    background-color:#EBE645;
+}
+.fstyle-1 {
+    color: #EBE645 ;
+}
+.fstyle-2 {
+    color:#2E4C6D ;
+}
+.fstyle-3 {
+    color:white ;
+}
+.overline-1 {
+    text-decoration: overline;
+    color:#2E4C6D ;
+}
+.bggal-1 {
+    background-color: #EBE645;
+    background-size: cover;
+}
+.bggal-2 {
+    background-color: #2E4C6D;
+    background-size: cover;
+}
+
+
+/* Dekstop Version */
+@media (min-width: 992px){
+.nav-link {text-transform: uppercase;
+margin-right: 30px;
+ }
+
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #EBE645;
+    width: 50%;
+    margin: auto;
+    padding-top:5px ;
+    margin-bottom: -8px;
+}
+.jumbotron{
+    margin-top: -125px;
+    height: 600px;
+}
+.navbar-brand,.nav-link{
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+.jumbotron .display-4 {
+    font-size: 62px;
+}
+.workingspace {
+    text-align: left;
+}
+
+}
+
+
+
+
+
+
+
+
+
